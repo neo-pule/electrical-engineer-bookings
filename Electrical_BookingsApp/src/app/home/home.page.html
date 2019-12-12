@@ -27,7 +27,7 @@
 
         <ion-slides [options]="sliderConfig">
 
-            <ion-slide *ngFor="let product of cat.products">
+            <ion-slide *ngFor="let product of cat.products" (click)="presentModal()">
                 <ion-card>
                     <ion-card-header>
                         <ion-card-title>
