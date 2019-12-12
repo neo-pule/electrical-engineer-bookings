@@ -33,14 +33,21 @@ ion-card {
     color: rgb(8, 8, 8);
 }
 
-ion-icon {
-    width: 40px;
-    height: 40px;
-    outline-color: white;
-    padding-left: 3em;
+:root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
 }
 
-// .icons {
-//     align-content: center;
-//     padding-left: 3em;
-// }
+.swiper-slide {
+    display: block;
+}
+
+ion-slide>h2 {
+    margin-top: 2.8rem;
+}
+
+ion-slide>img {
+    max-height: 50%;
+    max-width: 60%;
+    margin: 36px 0;
+}
