@@ -15,13 +15,13 @@
             </ion-card-content>
         </ion-card>
     </div>
-
+    <br>
 
     <div *ngFor="let cat of items" class="category-block">
 
         <ion-row no-padding class="category-banner">
             <ion-col no-padding button tappable (click)="cat.expanded = !cat.expanded" align-self-center>
-                {{cat.category}}
+
             </ion-col>
         </ion-row>
 
@@ -46,7 +46,7 @@
         </ion-slides>
     </div>
 
-
+    <br>
 
     <div class="icons" style="text-align: center;">
         <img src="https://img.icons8.com/carbon-copy/50/000000/phone.png">-----
